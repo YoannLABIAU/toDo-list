@@ -1,0 +1,15 @@
+{
+    "name": "yoann-labiau-ei/todo-list",
+    "description": "Framework Modulaire Vanilla",
+    "type": "project",
+    "require": {
+        "php": ">=8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "Module\\": "module/"
+        }
+    },
+    "minimum-stability": "stable"
+}

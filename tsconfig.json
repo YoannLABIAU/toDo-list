@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "outDir": "./public/js",
+    "rootDir": "./",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/ts/**/*.ts",
+    "core/Ui/**/*.ts",
+    "module/**/xxUi/**/*.ts"
+  ],
+  "exclude": ["node_modules", "tests"]
+}

@@ -1,0 +1,12 @@
+/node_modules
+/vendor
+/.env
+/allure-results
+/allure-report
+/playwright-report
+/test-results
+*.sqlite
+.DS_Store
+/.ai
+/init-kanso-framework.ps1
+*.log
